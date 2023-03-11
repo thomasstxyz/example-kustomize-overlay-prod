@@ -5,6 +5,8 @@ resources:
 components:
   - app-version
 namePrefix: prod-
+patchesStrategicMerge:
+  - "settings/deployment.yaml"
 patches:
 - target:
     kind: Deployment
