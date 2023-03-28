@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: podinfo
+  labels:
+    team: podinfo
+spec:
+  template:
+    spec:
+      containers:
+      - name: podinfod
+        env:
+        - name: PODINFO_SETTING_X
+          value: "YZ"
