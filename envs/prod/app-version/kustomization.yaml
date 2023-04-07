@@ -3,3 +3,6 @@ kind: Component
 images:
 - name: ghcr.io/stefanprodan/podinfo
   newTag: 6.3.4
+
+
+##
