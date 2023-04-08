@@ -11,4 +11,4 @@ spec:
       - name: podinfod
         env:
         - name: PODINFO_SETTING_X
-          value: "AB"
+          value: "YZ"
